@@ -1,0 +1,6 @@
+
+//span[text()='Apple iPhone 7 (32GB) - Black']/ancestor::div[@class='a-section a-spacing-medium']//span[@class='a-price']
+
+
+
+//span[text()='Apple iPhone 7 (32GB) - Black']/../../../../../../../../../div/div[2]/div[2]/div/div/div[3]/div/div/div/div/a//span[@class='a-offscreen']
