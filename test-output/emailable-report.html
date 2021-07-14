@@ -9,18 +9,13 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">14,224</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">9,852</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">dataDriven.Test2</td><td><a href="#m0">tc3</a></td><td rowspan="1">1625915871880</td><td rowspan="1">14132</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">dataDriven.Test6</td><td><a href="#m0">compareData</a></td><td rowspan="1">1626257509409</td><td rowspan="1">9745</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">dataDriven.Test2#tc3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.sql.SQLException: Operation not allowed after ResultSet closed
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
-	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:445)
-	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1726)
-	at dataDriven.Test2.tc3(Test2.java:34)
+<h2>Default test</h2><h3 id="m0">dataDriven.Test6#compareData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Cell.setCellValue(String)&quot; because &quot;dataDriven.Test5.cell&quot; is null
+	at dataDriven.Test5.writeDataToExcel(Test5.java:49)
+	at dataDriven.Test6.compareData(Test6.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

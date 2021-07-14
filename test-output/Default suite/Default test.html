@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jul 10 16:47:51 IST 2021</td>
+<td>Started on:</td><td>Wed Jul 14 15:41:49 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14224 ms)</td>
+<tr><td>Total time:</td><td>9 seconds (9852 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='dataDriven.Test2.tc3()'><b>tc3</b><br>Test class: dataDriven.Test2</td>
-<td><div><pre>java.sql.SQLException: Operation not allowed after ResultSet closed
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
-	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:445)
-	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1726)
-	at dataDriven.Test2.tc3(Test2.java:34)
+<td title='dataDriven.Test6.compareData()'><b>compareData</b><br>Test class: dataDriven.Test6</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Cell.setCellValue(String)&quot; because &quot;dataDriven.Test5.cell&quot; is null
+	at dataDriven.Test5.writeDataToExcel(Test5.java:49)
+	at dataDriven.Test6.compareData(Test6.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -112,15 +107,10 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1429133319", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1429133319'><pre>java.sql.SQLException: Operation not allowed after ResultSet closed
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
-	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:445)
-	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1726)
-	at dataDriven.Test2.tc3(Test2.java:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace731870416", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace731870416'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Cell.setCellValue(String)&quot; because &quot;dataDriven.Test5.cell&quot; is null
+	at dataDriven.Test5.writeDataToExcel(Test5.java:49)
+	at dataDriven.Test6.compareData(Test6.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -150,8 +140,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>14</td>
-<td>dataDriven.Test2@236e3f4e</td></tr>
+<td>9</td>
+<td>dataDriven.Test6@68e965f5</td></tr>
 </table><p>
 </body>
 </html>
